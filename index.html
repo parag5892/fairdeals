@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="./index.js"></script>
+    <script type="text/javascript" src="/jquery/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam|Audiowide|Sofia|Trirong">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js"></script>
+    <title>Rent-Wale</title>
+</head>
+<body>
+  <nav  class="navbar navbar-expand-lg navbar-fixed-top nav-color">
+    <div class="container-fluid">
+      <img style="width: 50px;" src="./images/logo3.png" alt="">
+      <a class="navbar-brand" style="color: rgb(255, 255, 255); padding-left: 10px; margin-right: 0px;" href="#">Fair Deals Rentals And Services
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div  class="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
+          <li class="nav-item"> 
+            <a style="color: rgba(240, 248, 255, 0.722); font-weight:400;" class="nav-link active" aria-current="page" href="./contact_us/contact.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgba(240, 248, 255, 0.722); font-weight:400;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">AC</a></li>
+              <li><hr class="dropdown-divider"></li> 
+              <li><a class="dropdown-item" href="#">Fridge</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a href="./Comming Soon/smoke.html" target="_blank" style="text-decoration: none;" class="dropdown-item">Washing Macine</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+          </li>
+          <li  class="nav-item">
+            <a  style="color: rgba(240, 248, 255, 0.722); font-weight:400;" class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgba(240, 248, 255, 0.722); font-weight:400;" class="nav-link" href="./contact_us/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- slide-height -->
+  <!-- ------------------------slide show-------------------- -->
+    <div  id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div style="height: 690px;" class="carousel-item active">
+          <img  style="height: 690px;"  src="./images/Beat-the-Heat.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div style="height: 690px;" class="carousel-item ">
+          <img style="height: 690px;" src="./images/bann.png" class=" d-block w-100" alt="...">
+        </div>
+        <div style="height: 690px;"  class="carousel-item ">
+          <img style="height: 690px;" src="./images/rent-3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <div class="intro-heading">
+      <h1>Welcome To Our Website</h1>
+      <p>Welcome to our website, your one-stop destination for all your rental needs! We are delighted to offer you an array of home appliances for rent, including air conditioners, washing machines, refrigerators, and induction cooktops, among others.</p>
+      <p>We understand that purchasing high-end appliances can be a significant investment, which is why we provide affordable and flexible rental services to make your life easier. Whether you are looking for a temporary solution while your appliance is being repaired, or need one for a short-term stay, we have got you covered.</p>
+      <p>Our rental services are hassle-free and convenient, and we ensure that all our appliances are of the highest quality and performance. We also offer excellent customer service and support to help you choose the perfect appliance that meets your needs and budget.</p>
+      <p>So, sit back and relax while we take care of your rental needs. Browse our website to learn more about our rental services and products, and feel free to contact us for any queries or assistance. Thank you for choosing us as your rental partner!</p>
+    </div>
+
+
+
+
+
+    
+<div id='table'>
+
+  <div id='box'>
+    <table class="table table-dark" style="text-align: center;">
+      <table class="table table-dark" style="text-align: center;">
+        <thead class="table__heading">
+          <p class="table__heading">Window Air Conditioner</p>
+        </thead>
+        <tr>
+          <th scope="row" class="table-active">Appliances</th>
+          <td colspan="2" class="table-active">Type</td>
+          <td class="table-active">Rent Charges</td>
+        </tr>
+        <tr>
+          <th scope="row">Window Air Conditioner</th>
+          <td colspan="2" >1 Ton</td>
+          <td>6000/- 1-Season + 500 Installasion</td>
+        </tr>
+        <tr>
+          <th scope="row">Window Air Conditioner</th>
+          <td colspan="2">1.5 Ton</td>
+          <td>7000/- 1-Season + 500 Installasion</td>
+        </tr>
+        <tr>
+          <th scope="row">Window Air Conditioner</th>
+          <td colspan="2">2 Ton</td>
+          <td>7500/- 1-Season + 500 Installasion</td>
+        </tr>
+        <tr>
+          <th scope="row">Refundable Security Fees</th>
+          <td colspan="2"> - </td>
+          <td>2500/-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div id='box'>
+    <table class="table table-dark" style="text-align: center;">
+      <thead class="table__heading">
+        <P class="table__heading">Split Air Conditioner</P>
+      </thead>
+      <tr>
+        <th scope="row" class="table-active">Appliances</th>
+        <td colspan="2" class="table-active">Type</td>
+        <td class="table-active">Rent Charges</td>
+      </tr>
+      <tr>
+        <th scope="row">Split Air Conditioner</th>
+        <td colspan="2" >1 Ton</td>
+        <td>10000/- 1-Season + 500 Installasion</td>
+      </tr>
+      <tr>
+        <th scope="row">Split Air Conditioner</th>
+        <td colspan="2">1.5 Ton</td>
+        <td>11500/- 1-Season + 500 Installasion</td>
+      </tr>
+      <tr>
+        <th scope="row">Split Air Conditioner</th>
+        <td colspan="2">2 Ton</td>
+        <td>12500/- 1-Season + 500 Installasion</td>
+      </tr>
+      <tr>
+        <th scope="row">Refundable Security Fees</th>
+        <td colspan="2"> - </td>
+        <td>3000/-</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+
+  <div id='box'>
+    <table class="table table-dark" style="text-align: center;">
+      <table class="table table-dark" style="text-align: center;">
+        <thead class="table__heading">
+          <p class="table__heading">Top Load Washing Machine</p>
+        </thead>
+      <tr>
+        <th scope="row" class="table-active">Appliances</th>
+        <td colspan="2" class="table-active">Month</td>
+        <td class="table-active">Rent Charges</td>
+      </tr>
+      <tr>
+        <th scope="row">Top Load</th>
+        <td colspan="2" >12</td>
+        <td>599/- Month + 500 Installasion</td>
+      </tr>
+      <tr>
+        <th scope="row">Top Loadr</th>
+        <td colspan="2">9</td>
+        <td>11500/- 1-Season + 500 Installasion</td>
+      </tr>
+      <tr>
+        <th scope="row">Top Load</th>
+        <td colspan="2">6</td>
+        <td>12500/- 1-Season + 500 Installasion</td>
+      </tr>
+      <tr>
+        <th scope="row">Refundable Security Fees</th>
+        <td colspan="2"> - </td>
+        <td>3000/-</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+  
+  </div>
+   
+
+
+
+  
+    
+<div id='table'>
+
+  <div id='box'>
+    <table class="table table-dark" style="text-align: center;">
+      <table class="table table-dark" style="text-align: center;">
+        <thead class="table__heading">
+          <p class="table__heading">Refrigerator (Single text-decoration)</p>
+        </thead>
+        <tr>
+          <th scope="row" class="table-active">Appliance Type</th>
+          <td colspan="2" class="table-active">Month</td>
+          <td class="table-active">Rent Charges</td>
+        </tr>
+        <tr>
+          <th scope="row">Single Door</th>
+          <td colspan="2" >12</td>
+          <td>510/- Month</td>
+        </tr>
+        <tr>
+          <th scope="row">Single Door</th>
+          <td colspan="2">9</td>
+          <td>570/- Month</td>
+        </tr>
+        <tr>
+          <th scope="row">Single Door</th>
+          <td colspan="2">6</td>
+          <td>699/- Month</td>
+        </tr>
+        <tr>
+          <th scope="row">Single Door</th>
+          <td colspan="2">3</td>
+          <td>799/- Month</td>
+        </tr>
+        <tr>
+          <th scope="row">Refundable Security Money:</th>
+          <td colspan="2"> - </td>
+          <td>2000/-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div id='box'>
+    <table class="table table-dark" style="text-align: center;">
+      <thead class="table__heading">
+        <P class="table__heading">Refrigerator (200-350 Liter)</P>
+      </thead>
+      <tr>
+        <th scope="row" class="table-active">Appliances</th>
+        <td colspan="2" class="table-active">Month</td>
+        <td class="table-active">Rent Charges</td>
+      </tr>
+      <tr>
+        <th scope="row">200-350 Liter</th>
+        <td colspan="2" >12</td>
+        <td>760/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">200-350 Liter</th>
+        <td colspan="2">9</td>
+        <td>849/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">200-350 Liter</th>
+        <td colspan="2">6</td>
+        <td>999/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">200-350 Liter</th>
+        <td colspan="2">3</td>
+        <td>1200/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">Refundable Security Money:</th>
+        <td colspan="2"> - </td>
+        <td>2500/-</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+
+  <div id='box'>
+    <table class="table table-dark" style="text-align: center;">
+      <table class="table table-dark" style="text-align: center;">
+        <thead class="table__heading">
+          <p class="table__heading">Refrigerator (350-550 Liter)</p>
+        </thead>
+      <tr>
+        <th scope="row" class="table-active">Appliances Type</th>
+        <td colspan="2" class="table-active">Month</td>
+        <td class="table-active">Rent Charges</td>
+      </tr>
+      <tr>
+        <th scope="row">350-550 Litre</th>
+        <td colspan="2" >12</td>
+        <td>799/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">350-550 Litre</th>
+        <td colspan="2">9</td>
+        <td>899/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">350-550 Litre</th>
+        <td colspan="2">7</td>
+        <td>999/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">350-550 Litre</th>
+        <td colspan="2">6</td>
+        <td>1299/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">350-550 Litre</th>
+        <td colspan="2">3</td>
+        <td>1588/- Month</td>
+      </tr>
+      <tr>
+        <th scope="row">Refundable Security Fees</th>
+        <td colspan="2"> - </td>
+        <td>2500/-</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+  
+  </div>
+   
+<!--     
+    <main id=app>
+      <h1 class="featured-products-heading">Featured Products</h1>
+      <section class="f-cards">
+        <div class="f-card charizard animated"></div>
+        <div class="f-card pika animated"></div>
+        <div class="f-card eevee animated"></div>
+        <div class="f-card mewtwo animated"></div>
+      </section>
+    </main> -->
+    
+
+
+<div style="background-color: rgb(30, 31, 31);">
+  <h1 class="featured-products-heading">Featured Products</h1>
+    <div style="padding-bottom: 100px;" class="card-group">
+      
+      <div style="background-color: transparent; border-color: transparent;" class="card">
+        <a style="text-decoration: none;" href="./Comming Soon/smoke.html" target="_blank"></a>
+        <div style="margin-left: auto; margin-right: auto;" class="f-card charizard animated">
+        <img style="width: 280px; height: 100%;" src="./images/ac-1.jpeg" alt="">
+       </div>
+        <div class="card-body">
+          <h5 style="text-align: center; color: white;" class="card-title">AC</h5>
+        </div>
+      </a>
+      </div>
+
+      
+        <div style="background-color: transparent; border-color: transparent;"  class="card">
+          <a style="text-decoration: none;" href="./Comming Soon/smoke.html" target="_blank">
+          <div style="margin-left: auto; margin-right: auto;" class="f-card pika animated">
+            <img style="width: 340px; height: 100%; margin-left: -30px;" src="./images/fridege-1.jpeg" alt="">
+          </div>
+          <div  class="card-body">
+            <h5 style="text-align: center; color: white;" class="card-title">Fridge</h5>
+          </div>
+        </a>
+        </div>
+      
+
+      <div style="background-color: transparent; border-color: transparent;"  class="card">
+        <a style="text-decoration: none;" href="./Comming Soon/smoke.html" target="_blank">
+          <div style="margin-left: auto; margin-right: auto;" class="f-card eevee animated">
+            <img style="width: 280px; height:100%;" src="./images/washing machine.jpg" alt="">
+          </div>
+          <div class="card-body">
+            <h5 style="text-align: center; color: white;" class="card-title">Washing Machine</h5>
+          </div>
+        </a>
+      </div>
+
+    </div> 
+</div>
+
+
+
+
+
+
+
+
+<!-- ---------------------------------dynammic-id-card-image------------------------ -->
+<!-- <div class="context">
+  <h2>Why are You Wating..Get Your AC Now </h2>
+</div>
+
+<div class="id-image">
+  <img class="id-image" style="margin-left:10px; margin-top: 50px; width:450px; border-radius: 40%;" src="./images/ac.png" alt="">1
+</div> -->
+
+<!-- ------------------flip card-1------------------ -->
+<!-- <div  class="widget-container">
+  <div class="flip-box common-flip-style">
+    <div class="box-front common-box-style" style="margin-top: 50px;">
+      <div class="box-content-wrapper">
+      </div>
+    </div>
+    <div class="box-back common-box-style box-bgi-effect" style="margin-top: 50px;">
+      <div class="box-content-wrapper">
+        <div class="box-content">
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+  
+
+<!-- -----------------------------flip-card-1---------------------- -->
+  <!-- <div style="margin-left: 1100px; " class="widget-container">
+    <div class="flip-box common-flip-style">
+      <div class="box-front common-box-style" style="background-image: url(./images/dark-id-3.jpg); margin-top: -100px;">
+        <div class="box-content-wrapper">
+        </div>
+      </div>
+      <div class="box-back common-box-style box-bgi-effect" style="background-image: url(./images/dark-id-4.jpeg); margin-top: -100px;">
+        <div class="box-content-wrapper">
+          <div class="box-content">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<!-- -----------------------------background animation------------------ -->
+
+<!-- <div class="area" >
+      <ul style="z-index: -1;" class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
+</div > -->
+
+
+
+
+
+
+<!-- --------------------about-us---------------------- -->
+<div style="margin-top: 200px;" id="about-main">
+  <div style="background-color: transparent;" class="jumbotron">
+      <div class="jumbotron-inner">
+          <div class="top-box">
+              <div class="content-box">
+                  <h1>
+                      About US
+                  </h1>
+                  <p>
+                    We believe that our success is dependent on the satisfaction of our customers, and we go above and beyond to ensure that your rental experience with us is a positive one. We are always looking for ways to improve and enhance our services, and we welcome any feedback or suggestions you may have. 
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="img-layer-container" >
+          <div class="team-image" id="team-image">
+              <img style="width: 85%; margin-top: -5%; margin-left: 5%; z-index: 1;" src="./images/all-products.png" />
+          </div>
+
+          <div style="z-index: -1;" class="circles-container">
+              <div style="z-index: -1;" class="img-1">
+                  <img style="z-index: -1;" src="https://apimatic.io/img/theme/aboutUs/Circles-1-1.svg" />                        
+              </div>
+              <div style="z-index: -1;" class="img-2">
+                  <img style="z-index: -1;" src="https://apimatic.io/img/theme/aboutUs/Circles-2-1.svg" />                        
+              </div>                    
+          </div>           
+      </div>
+  </div>
+</div>
+
+
+
+
+<!-- -------------------------------whatsapp-floting-button---------------------------- -->
+
+<div class="whatsapp-floating_btn">
+  <a style="text-decoration: none;" href="https://wa.me/9999102246">
+    <div class="whatsapp-contact_icon">
+      <i class="fa fa-whatsapp my-float"></i>
+    </div>
+  </a>
+</div>
+
+<!-- <div style="height: 600px;">
+  <div style="width: 90%; margin-left: auto; margin-right: auto;" class="master">
+    <span  class="js-number number" data-count-from="0" data-count-to="999">0</span><p class="number">+</p>
+    <span style="margin-left: 300px;" class="js-numberr number" data-count-from="0" data-count-to="199">0</span><p class="number">+</p>
+  </div>
+  <h2 style="margin-top: -280px; margin-left: 320px; color: #515251;">Happy Customers</h2>
+  <h2 style="margin-top: -47px; margin-left: 1000px; color: #515251;">Designs</h2>
+</div> -->
+
+
+
+
+    <!-- Site footer -->
+
+    <footer class="site-footer">
+      <div class="footer-inner-container" >
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <div class="no">
+              <!-- Links -->
+              <h3 class="quick-contact-heading" style="color: rgba(245, 245, 245, 0.87);">Quick Contact</h3>
+              <p class="footer-contact-spacing footer-text" style="color: rgba(245, 245, 245, 0.616); font-family: Audiowide;"><i class="fa fa-building-o me-3"></i>Faair Deals Rent And Services</p>
+              <p class="footer-contact-spacing footer-text" style="color: rgba(245, 245, 245, 0.616);"><i class="fa fa-map-marker me-3"></i> Noida</p>
+              <p class="footer-text" style="color: rgba(245, 245, 245, 0.616);"><i class="fa fa-envelope me-3 "></i>info@fairdeals.com.com</p>
+              <p class="footer-text" style="color: rgba(245, 245, 245, 0.616); margin-left: -5px;"><i class="fa fa-phone me-3" style="rotate:90deg"></i>  +91-9999102246 </p>
+              <!-- <P class="lft footer-text" style="color: rgba(245, 245, 245, 0.616);">+91-xxxxxxxxxx </P> -->
+              
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <h3 class="general-links-heading" style="color: rgba(245, 245, 245, 0.87);">General Links</h3>
+            <ul class="footer-links footer-text">
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="index.html">Home</a></li>
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="about_us.html">About us</a></li>
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="/product_pages/contact_us.html">Contact us</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-12 col-md-12 col-lg-3">
+            <h3 class="general-links-heading" style="color: rgba(245, 245, 245, 0.87);">FAQ & HELP</h3>
+            <ul class="footer-links footer-text">
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="#">FAQ's</a></li>
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="#">How to Order</a></li>
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="#">Franchise</a></li>
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="#">Reseller</a></li>
+              <li><a style=" text-decoration: none; color: rgba(245, 245, 245, 0.616);" href="#">Refund & Return Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="footer-inner-container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="terms-paragraph" >This Site Is Managed By  <u style="font-family: Audiowide;">(Fair Deals Rentals And Services)</u></p>
+          </div>
+  
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons social-circle">
+              <li><a class="facebook" href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a class="icoInstagram" href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href=""><i class="fa fa-youtube-play"></i></a></li>
+              <li><a class="whatsapp" href="https://wa.me/9999102246"><i class="fa fa-whatsapp"></i></a></li>   
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  
+  
+  
+  
+
+</body>
+</html>
